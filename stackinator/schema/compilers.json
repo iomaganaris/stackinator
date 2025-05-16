@@ -31,7 +31,8 @@
             "items": {
                 "anyOf": [
                     {"$ref": "#/defs/llvm_version_spec"},
-                    {"$ref": "#/defs/nvhpc_version_spec"}
+                    {"$ref": "#/defs/nvhpc_version_spec"},
+                    {"$ref": "#/defs/amd_llvm_version_spec"}
                 ]
             },
             "minItems": 1
